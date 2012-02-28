@@ -1,0 +1,48 @@
+
+
+
+.spa_manager input, .spa_manager select
+{
+	height: 16px;
+}
+.spa_manager .long
+{
+	width: 500px;
+}
+.spa_manager .short
+{
+	width: 100px;
+}
+.spa_manager .shortr
+{
+	
+}
+.menu_right .inputbox_menu
+{
+	 width: 300px;
+}
+.spa_manager textarea
+{
+
+}
+.spa_manager label
+{
+
+}
+#cdate
+{
+	 width: 110px;
+}
+#publish_up
+{
+	 width: 110px;
+}
+#publish_down
+{
+	 width: 110px;
+}
+
+.clr
+{
+	clear:both;
+}

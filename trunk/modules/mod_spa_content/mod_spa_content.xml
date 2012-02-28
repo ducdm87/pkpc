@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0" client="site"   method="upgrade">
+	<name>view content</name>
+	<creationDate>Sep 2011</creationDate>
+	<authorEmail>ducdm87@gmail.com</authorEmail>
+	<license>http://www.gnu.org/licenses/gpl-3.0.txt GNU/GPL 3</license>
+	<version>1.0.0</version>
+	<description>Please choses none menu</description>
+	<files>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+		<folder>elements</folder>
+		<file>helper.php</file>
+		<file>index.html</file>
+		<file module="mod_spa_content">mod_spa_content.php</file>
+		<file>mod_spa_content.xml</file>
+	</files>
+	<languages folder="languages">		
+	</languages>
+	<media />
+	<params addpath="/modules/mod_spa_content/elements">
+		<param name="type" default="1" type="list" label="type" description="Chọn kiểu hiển thị">
+			<option value="jhtml">Html/javascript</option>
+			<option value="chuyenmuc1">chuyên mục 1</option>
+			<option value="usertab">user tab</option>
+			<option value="chuyenmuc2">chuyên mục 2</option>
+			<option value="chiase">Chia sẻ bạn bè</option>			
+			<option value="quangcao">Quảng cáo</option>			
+		</param>
+		<param name="description" type="textarea" rows="10" cols="50" label="description / Code html-javascript" description="SHOW NUMBER CONTENT" />
+		<param name="showcdate" default="1" type="radio" label="Show created date" description="">
+			<option value="0">Yes</option>
+			<option value="1">No</option>						
+		</param>
+		<param name="showIntro" default="1" type="radio" label="Show Introtext" description="">
+			<option value="0">Yes</option>
+			<option value="1">No</option>						
+		</param>
+		<param name="showMenu" default="1" type="radio" label="Show Menu" description="SHow menu for module">
+			<option value="0">Yes</option>
+			<option value="1">No</option>						
+		</param>
+		<param name="limit_menu" type="text" label="Number of menu" description="SHOW NUMBER MENU" />
+		<param name="limit_content" type="text" label="Number of content" description="SHOW NUMBER CONTENT" />
+		<param name="thumb" size="100"  type="text" label="Image thumb" description="" />
+		<param name="smallThumb" size="100" type="text" label="Image small thumb" description="" />
+		
+		<param name="@spacer" type="spacer" default="for editor" label="" description="" />
+		<param name="showEditor" default="1" type="radio" label="Show content" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>	
+		</param>
+		<param name="enablePremium" default="1" type="radio" label="Enable premium" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>	
+		</param>
+		<param name="orderEditor" default="ordering" type="list" label="order by" description="chose order by">
+			<option value="ordering">ordering</option>
+			<option value="cdate">created date</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="for category" label="" description="" />
+		<param name="catid" default="0" type="catid" label="category" scope="com_spa_products" description="" />
+		<param name="orderCat" default="cdate" type="list" label="order by" description="chose order by">
+			<option value="ordering">ordering</option>
+			<option value="cdate">created date</option>
+		</param>
+		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="for section" label="" description="" />
+		<param name="secid" default="0" type="secid" scope="com_spa_products" label="section" description="" />
+		<param name="orderSec" default="cdate" type="list" label="order by" description="chose order by">
+			<option value="ordering">ordering</option>
+			<option value="cdate">created date</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="for system" label="" description="" />
+		<param name="showSystem" default="0" type="radio" label="Show content" description="">
+			<option value="1">Yes</option>
+			<option value="0">No</option>	
+		</param>
+		<param name="orderSys" default="cdate" type="list" label="order by" description="chose order by">
+			<option value="ordering">ordering</option>
+			<option value="cdate">created date</option>
+		</param>
+	</params>
+	
+	<params group="advanced">
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Exp: -msc,-chiase," />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="header" type="textarea" rows="4" cols="30" default="" label="Header:" description="Title for module" />
+		<param name="footer" type="textarea" rows="4" cols="30" default="" label="Footer:" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />		
+		<param name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+        	<option value="1">Use global</option>
+        	<option value="0">No caching</option>
+   		</param>
+   		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

@@ -1,0 +1,411 @@
+body {
+	color: #222222;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: #9CA5AE;
+}
+
+h2.title {
+	background: url("../../../chuyenkhoamat/images/logo.jpg") repeat scroll 0 0 transparent;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+	width: 450px;
+	padding: 158px 0 0;
+}
+
+.contentheading a {
+	color: #469A06;
+}
+
+.contentheading h1 a:hover {
+	color: #FE5502;
+}
+
+.contentheading .createdate {
+	color: #343434;
+	float: right;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.page_detail h1 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 15px 0;
+	background-color: #FFFFFF;
+	padding-bottom: 0;
+	width: 100%;
+}
+
+.page_detail h2 {
+	font-weight: bold;
+	margin: 12px 0;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+.page_detail h3 {
+	text-transform: capitalize;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.page_detail h4 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 8px 0;
+}
+
+.page_detail h5 {
+	font-size: 12px;
+	margin: 6px 0;
+}
+
+.page_detail h6 {
+	font-size: 10px;
+	margin: 4px 0;
+}
+
+img {
+	border: medium none;
+}
+
+#page {
+	margin: 10px auto;
+	width: 100%;
+	position: relative;
+}
+
+#page #breadcrumb {
+	background: none repeat scroll 0 0 #FFFFFF;
+	height: 25px;
+	line-height: 20px;
+	margin: 0 auto;
+	padding: 0 0 0 5px;
+	position: relative;
+	top: 135px;
+	width: 1005px;
+}
+
+#page #online {
+	margin: 0 auto;
+	width: 990px;
+	position: relative;
+	height: 30px;
+	top: 190px;
+}
+
+#page #wrapper {
+	background-color: #FFFFFF;
+	position: relative;
+	width: 990px;
+	top: 190px;
+	margin: 0 auto 190px;
+}
+
+#page #footer {
+	width: 990px;
+	padding-bottom: 0;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-left: 1px solid #CACACA;
+	border-right: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+	margin: 20px auto;
+}
+
+#footer #footer_inner {
+	margin: 0 auto;
+}
+
+#footer #footer_inner .design {
+	padding: 0 0 0 15px;
+	border-top: 1px solid #FFFFFF;
+	color: #555555;
+}
+
+#footer .module_menu-nav {
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin: 0;
+	width: 100%;
+}
+
+#footer .module_menu-nav ul .first {
+	background: none repeat scroll 0 0 transparent;
+}
+
+#footer .module_menu-nav ul {
+	height: 28px;
+	border-top: 2px solid #469A06;
+	border-bottom: 1px solid #CECECE;
+	padding: 0 0 0 10px;
+}
+
+#footer .module_menu-nav ul li {
+	border-bottom: medium none;
+	border-top: medium none;
+	background: url("../images/bg-menu-space.jpg") no-repeat scroll left 0 transparent;
+}
+
+#footer .module_menu-nav ul li:hover span {
+	background: none repeat scroll 0 0 transparent;
+}
+
+#footer .module_menu-nav ul li a {
+	color: #469A68;
+}
+
+#footer .module_menu-nav ul li.parent {
+	border-left: medium none;
+}
+
+#footer .module_menu-nav ul li.parent span {
+	background: none repeat scroll 0 0 transparent;
+}
+
+#page #header {
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 190px;
+}
+
+#page #header .inner {
+	margin: 0 auto;
+	width: 990px;
+}
+
+#wrapper #center {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	width: 990px;
+	line-height: 20px;
+}
+
+#wrapper #left {
+	float: left;
+	margin: 0 2px;
+	overflow: hidden;
+	width: 300px;
+}
+
+#wrapper #right {
+	float: right;
+	width: 310px;
+}
+
+#header #header_left {
+	float: left;
+	width: 450px;
+	height: 158px;
+}
+
+#header #header_right {
+	float: left;
+	width: 540px;
+}
+
+#header #menu {
+	width: 990px;
+	background: url("../images/sprice_bg.gif") repeat-x scroll 0 -26px transparent;
+}
+
+#menu #menu-nav {
+	position: relative;
+	z-index: 999;
+}
+
+a {
+	color: #343434;
+	font-family: Arial,Helvetica,sans-serif;
+	outline: medium none;
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+}
+
+#page .clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+
+#page .clr {
+	clear: both;
+}
+
+.page_detail #center {
+	width: 650px !important;
+}
+
+.page_column #center {
+	width: 785px !important;
+}
+
+.contentheading {
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+
+.page_detail .contentheading {
+	border-bottom: 1px solid #E4E6E6;
+	float: left;
+	width: 100%;
+}
+
+.contentpaneopen .page_body .section {
+	font-weight: bold;
+}
+
+.page_detail img {
+	margin: 5px;
+	border: 1px solid #EEEEEE;
+}
+
+.page_column #main-left {
+	float: left;
+	height: auto;
+	width: 245px;
+}
+
+.page_column #main-center {
+	float: left;
+	margin: 0 20px;
+	width: 245px;
+}
+
+.page_column #main-right {
+	float: left;
+	width: 245px;
+}
+
+.text_box h3 {
+	color: #333333;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 20px;
+	margin: 0 0 10px !important;
+}
+
+.componentheading {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.box_item {
+	border-top: 1px solid #E4E6E6;
+	padding: 10px 1px;
+}
+
+.box_item .contentpaneintro .thumb img {
+	width: 160px;
+}
+
+.box_item .contentpaneintro .thumb {
+	border: 1px solid #DCDCDC;
+	float: left;
+	margin: 0 5px 0 0;
+	max-height: 150px;
+	max-width: 170px;
+	overflow: hidden;
+	padding: 1px;
+	text-align: center;
+}
+
+.box_item .contentpaneintro .text {
+	margin: 0 auto;
+	width: 660px;
+}
+
+.box_item .contentpaneintro .createdate {
+	color: #469A06;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 5px 10px 0 0;
+	padding: 0 0 10px;
+	text-align: right;
+}
+
+.paging {
+	height: 30px;
+}
+
+.paging ul {
+	list-style-type: none;
+	margin: 2px;
+}
+
+.paging ul li {
+	border: 1px solid #DDDDDD;
+	clear: none;
+	cursor: pointer;
+	float: left;
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 2px;
+}
+
+.paging ul li a, .paging ul li span {
+	padding: 3px 10px;
+}
+
+.paging .pagenav-active {
+	background: none repeat scroll 0 0 #D72800;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.paging .pagenav-inactive {
+	background: url("../images/pagenavi-bg.jpg") repeat-x scroll 0 0 #FFFFFF;
+}
+
+.paging .pagenav-inactive:hover {
+	background: none repeat scroll 0 0 #D72800;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#chuyenmuc1 {
+	overflow: hidden;
+	margin: 10px 0 20px;
+}
+
+.paging .pagenav-inactive:hover a {
+	color: #FFFFFF;
+}
+
+#system-message {
+	background: none repeat scroll 0 0 #EEEEEE;
+	padding: 5px;
+	color: blue;
+	margin: 0 0 5px;
+}
+
+#system-message dt.message, #system-message dt.notice {
+	display: none;
+}
+
+#system-message ul {
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#system-message .error ul {
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/modules/mod_spa_faq/elements">
+        <param name="@spacer" type="spacer" description="" />
+        <param name="catids" type="catid" label="Categories for Post" description="" />        
+        <param name="show_vote" type="radio" default="0" label="Rating/Voting" description="">			
+			<option value="0">Hide</option>
+			<option value="1">Show</option>		
+		</param>
+		<param name="@spacer" type="spacer" default="Enter key" description="" />
+		 <param name="captchar" type="radio" default="0" label="captchar" description="">			
+			<option value="0">Hide</option>
+			<option value="1">Show</option>		
+		</param>
+        <param name="publickey" type="text"  label="publickey" size="70" description="" />
+        <param name="privatekey" type="text"  label="privatekey" size="70" description="" />
+	</params>
+</config>

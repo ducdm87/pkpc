@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params addpath="/components/com_spa_faq/elements">		
+        <param name="module_type" type="text" default="mod_spa_content" label="module type" description="module to view content" size="70" />
+        <param name="@spacer" type="spacer" description="" />		 
+	</params>
+</config>
