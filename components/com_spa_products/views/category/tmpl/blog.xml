@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Blog layout( Chuyên mục nhỏ)">
+		<message>
+			
+		</message>
+	</layout>
+	<state>
+		<name>FAQ section Layout</name>
+		<description>FAQ SUBMISSION CATEGORY LAYOUT DESC</description>
+		<url  addpath="/components/com_spa_faq/elements">
+			<param name="id" label="category" type="catid" scope="com_spa_faq" description="Choose a category..." default=""/>			
+		</url>
+		<params addpath="/components/com_spa_faq/elements">
+			<param name="intro" label="#Intro" type="text"  description="" default="10"/>
+		</params>
+	</state>
+</metadata>

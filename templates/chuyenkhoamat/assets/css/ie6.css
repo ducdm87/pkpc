@@ -1,0 +1,69 @@
+
+
+* html img, * html .png {
+position:relative;
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")),this.pngSet=true) );
+}
+
+#wrapper #center
+{	
+	margin: 0;
+}
+
+h2.title {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=http://server.com/chuyenkhoamat/templates/chuyenkhoamat/images/logo_ckm.png, sizingMethod='crop');
+}
+#kbonline .open
+{
+	_height: 25px;
+}
+.module_menu-nav li.sfhover
+{
+	background:url("../images/bg-menu-active.jpg") no-repeat scroll left 0 #FFFFFF;
+	position:relative;
+	overflow:visible;
+}
+.module_menu-nav ul li.sfhover a {
+    color:#0073C5;
+    height:28px !important;
+}
+
+#main-center h3.head span {
+   _font-size:10px;
+}
+
+
+
+.module_menu-nav li.sfhover span {
+    background:url("../images/bg-menu-active.jpg") no-repeat scroll right 0 transparent;
+}
+
+.module_menu-nav ul li.sfhover ul {
+    left:-1px;
+   Z-INDEX: 1000;
+    _Z-INDEX:1000;
+}
+.module_menu-nav li.sfhover li span {
+    background:none repeat scroll 0 0 transparent;
+}
+.module_menu-nav li span
+{
+	cursor:pointer;
+}
+.module_menu-nav ul li.parent li.sfhover {
+    background:none repeat scroll 0 0 #EEEEEE;
+    color:#FFFFFF;
+}
+.sectionblog_faq ul li, .categoryblog_faq ul li
+{
+	
+}
+.sectionblog_faq ul li h4,.categoryblog_faq ul li h4  {
+    font-size:12px;
+}
+
+
+.spacontent_slide .bground {	
+	filter: alpha(opacity=40);	
+}

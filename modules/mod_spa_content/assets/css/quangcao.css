@@ -1,0 +1,41 @@
+.spacontent_quangcao {
+	width: 300px;
+	margin: 5px 0;
+}
+
+.spacontent_quangcao h3.head {
+	color: black !important;
+	font-size: 13px !important;
+	float: left;
+	margin: 0 0 1px;
+	width: 100%;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.spacontent_quangcao .chiase {
+	height: 40px;
+	line-height: 40px;
+	padding: 3px 0 0;
+}
+
+.spacontent_quangcao .chiase .share0 {
+	float: left;
+}
+
+#___plusone_0 {
+	width: 70px !important;
+}
+
+.spacontent_quangcao .chiase .googleclass {
+	padding: 5px 0 0;
+	float: left;
+}
+
+.spacontent_quangcao .quangcao img {
+	padding: 1px;
+	width: 303px;
+}
+

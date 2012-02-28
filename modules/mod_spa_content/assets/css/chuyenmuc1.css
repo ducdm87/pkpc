@@ -1,0 +1,53 @@
+.pkpc_chuyenmuc1 .inner {
+	margin: 12px 9px;
+	height: 125px;
+}
+
+.pkpc_chuyenmuc1 .inner a.header {
+	color: #053F90;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 5px;
+	text-align: left;
+	width: 228px;
+}
+
+.pkpc_chuyenmuc1 .inner .dw1 a:hover {
+	color: #053F90;
+	text-decoration: underline;
+}
+
+.pkpc_chuyenmuc1 .inner .image {
+	border: 1px solid #E6E6E6;
+	display: inline;
+	float: left;
+	height: 82px;
+	margin-top: 3px;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 82px;
+}
+
+.pkpc_chuyenmuc1 .inner .image img {
+	border: medium none;
+	width: 82px;
+}
+
+.pkpc_chuyenmuc1 .inner .dw1 {
+	display: inline;
+	float: right;
+	margin: 0 0 0 5px;
+	text-align: left;
+	width: 125px;
+}
+
+.pkpc_chuyenmuc1 .inner .dw1 a {
+	color: #565656;
+	display: block;
+	font: 12px/18px Arial;
+	padding: 1px 0 2px 10px;
+	text-align: left;
+	background: url("../../../../templates/chuyenkhoamat/assets/images/sprice_bg.gif") no-repeat scroll 0 -230px transparent;
+}
+

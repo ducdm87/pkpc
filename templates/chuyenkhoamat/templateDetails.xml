@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template"  method="upgrade">
+	<name>chuyenkhoamat</name>
+  <version>1.0</version>
+  <creationDate>17/01/2011</creationDate>
+  <author>ducdm</author>
+  <authorEmail>ducdm87@gmail.com</authorEmail>
+  <authorUrl>http://www.joomlapraise.com</authorUrl>
+  <copyright>All Rights Reserved.</copyright>
+  <description>CKM template</description>
+	<files>
+		<folder>assets</folder>		
+		<folder>html</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>online</position>
+		<position>breadcrumb</position>
+		<position>column_left</position>
+		<position>chuyenmuc1</position>
+		<position>chuyenmuc2</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>main-bottom</position>
+		<position>column_right</position>
+		<position>topbanner</position>
+		<position>menu-nav</position>
+		<position>submenu-nav</position>
+		<position>footer</position>		
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="defaultJS" type="radio" default="on" label="Default Joomla JavaScript" description="By default, Joomla loads several JavaScript files whether they are needed or not. These files are around 75KB in size. To decrease page load time you can try turning these files off, but make sure to test your website after you do as some extensions won't function properly without them.">
+			<option value="on">On</option>
+			<option value="off">Off</option>
+		</param>
+		<param name="backgroundColor" type="list" default="white" label="Background Color" description="Select the background color for the website.">
+			<option value="white">White</option>
+			<option value="black">Black</option>
+			<option value="gray">Gray</option>
+			<option value="bismark">Bismark</option>
+			<option value="red">Red</option>
+			<option value="orange">Orange</option>
+			<option value="yellow">Yellow</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="purple">Purple</option>
+			<option value="lachuoi">lachuoi</option>
+		</param>
+		<param name="thicklineColor" type="list" default="blue" label="Thick Line Color" description="Select the background color for the thick line at the top and bottom of the page.">
+			<option value="red">Red</option>
+			<option value="orange">Orange</option>
+			<option value="yellow">Yellow</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="purple">Purple</option>
+			<option value="gray">Gray</option>
+		</param>
+		<param name="menuColor" type="list" default="blue" label="Menu Color" description="Select the color for the menu.">
+			<option value="red">Red</option>
+			<option value="orange">Orange</option>
+			<option value="yellow">Yellow</option>
+			<option value="green">Green</option>
+			<option value="blue">Blue</option>
+			<option value="purple">Purple</option>
+			<option value="black">Black</option>
+		</param>
+		<param name="use_motools" type="radio" default="on" label="Use motools" description="use motools 1.1 or 1.2">
+			<option value="1">1.1</option>
+			<option value="2">1.2</option>
+		</param>		
+	</params>
+</install>
